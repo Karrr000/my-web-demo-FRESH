@@ -1,0 +1,31 @@
+.nodisplay {
+    display: none;
+    white-space: nowrap;
+  }
+
+@media print { 
+    @page {
+      margin: 0.5cm;
+      size: A5 landscape;
+    }
+  
+    .print {
+      display: block;
+    }
+  
+    .no-print {
+      display: none;
+    }
+
+    body { 
+		-webkit-print-color-adjust: exact; 
+	} 
+
+    #toop {
+        display: none;
+    }
+
+    .com3 {
+        background-color: transparent;
+    }
+}

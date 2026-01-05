@@ -1,0 +1,118 @@
+.webmap {
+    display: grid;
+    grid-template-columns:auto;
+    row-gap: 20px;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "home . . . . ."
+      "cart regacc . . . ."
+      "all new popu rec fruit veg"
+      "aboutus fb wm . . .";
+  }
+  
+
+@media (max-width:1200px) {
+    .webmap {
+        font-size: 2vw;
+        grid-template-columns:auto; 
+        row-gap: 20px;
+        grid-template-rows: auto;
+      grid-template-areas:
+      "home"
+      "cart"
+      "regacc"
+      "all"
+      "new"
+      "popu"
+      "rec"
+      "fruit"
+      "veg"
+      "aboutus"
+      "fb"
+      "wm";
+    }
+  }
+  
+
+.homepage {
+    grid-area: home;
+} 
+
+.allpg {
+    grid-area: all;
+} 
+
+.newpg {
+    grid-area: new;
+} 
+
+.populpg {
+    grid-area: popu;
+} 
+
+.recompg {
+    grid-area: rec;
+} 
+
+.fruitpg {
+    grid-area: fruit;
+} 
+
+.vegpg {
+    grid-area: veg;
+} 
+
+.cart {
+    grid-area: cart;
+} 
+
+.regacc {
+    grid-area: regacc;
+} 
+
+.theaboutuspg {
+    grid-area: aboutus;
+} 
+
+.feedbackpg {
+    grid-area: fb;
+} 
+
+.webmappg {
+    grid-area: wm;
+} 
+
+
+
+.homepage a {
+    color: rgb(5, 129, 104);
+} 
+
+.cart a {
+    color: rgb(32, 131, 111);
+} 
+
+.regacc a {
+    color: rgb(32, 131, 111);
+} 
+
+.comlinks a {
+    color: rgb(58, 144, 127);
+} 
+
+.theaboutuspg a {
+    color: rgb(79, 146, 133);
+} 
+
+.feedbackpg a {
+    color: rgb(108, 172, 159);
+}
+
+.webmappg a {
+    color: rgb(128, 194, 180);
+} 
+
+
+
+
+  

@@ -1,0 +1,58 @@
+.clafi {
+  position: relative;
+  left: 8%;
+  top: 5%;
+  display: grid;
+  row-gap: 3%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "c1 c2 c3";
+}
+
+.clafi2 {
+  position: relative;
+  left: 8%;
+  top: 5%;
+  display: grid;
+  row-gap: 3%;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "c1 c2 c3";
+}
+
+@media (max-width: 700px) {
+  .clafi {
+      grid-template-columns:auto; 
+      grid-template-rows: auto;
+    grid-template-areas:
+    "c1"
+    "c2"
+    "c3";
+  }
+}
+
+
+@media (max-width: 700px) {
+  .clafi2 {
+    row-gap: 125px;
+      grid-template-columns:auto; 
+      grid-template-rows: auto;
+    grid-template-areas:
+    "c1"
+    "c2"
+    "c3";
+  }
+}
+
+
+.title-area { grid-area: textarea;}
+.clafic1 { grid-area: c1; height:225px; width:225px;}
+.clafic2 { grid-area: c2; height:225px; width:225px;}
+.clafic3 { grid-area: c3; height:225px; width:225px;}
+.clafic4 { grid-area: c4; height:225px; width:225px;}
+.clafic5 { grid-area: c5; height:225px; width:225px;}
+.clafic6 { grid-area: c6; height:225px; width:225px;}
+
+

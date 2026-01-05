@@ -1,0 +1,27 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "btn1"
+    "btn2"
+    "btn3";
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    grid-template-areas:
+      "btn1 btn2 btn3";
+  }
+}
+
+.block1 { grid-area: btn1; background-color: cadetblue; }
+.block2 { grid-area: btn2; background-color: cornflowerblue; }
+.block3 { grid-area: btn3; background-color: beige; }
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
