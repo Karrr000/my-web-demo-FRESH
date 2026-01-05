@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>關於我們|FRESH</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/home.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/btnleft.css" rel="stylesheet" type="text/css" />
+
+<link rel="shortcut icon" href="photo\logo_icon_banner\logo1.png" />
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  
+<header>
+  <!-- header -->
+  
+  <div id="toop">
+    <div id="logo_header" >
+      <a href="index.html"><img src="photo/logo_icon_banner/logo.png" id="logo" class="img-fluid"></a>
+    </div>
+    <div id="banner">
+       <img src="photo/logo_icon_banner/banner.gif" class="img-fluid">
+    </div>
+</div>
+  
+</header>
+
+  <div class="butcom container">
+  
+  <div class="buttongp">
+  <button class="btnleft lbtn1" value="主頁" onClick="location.href='index.html'">主頁</button>
+  <div class="lbtnnone"></div>
+  <button class="btnleft lbtn2" onclick="location.href='login.html'">購物車</button>
+  <div class="lbtnnone"></div>
+  <button class="btnleft lbtn3" value="商品一覽" onClick="location.href='Commodity_all.html'">商品一覽</button>
+  </div>
+  
+  
+  <div class="com2 container" style="text-align: left;padding-top: 3%;">
+        <h2 id="aboutuspage">關於我們</h2>
+        <a href="#abotus" class="aboutuspagelink">#網站理念</a>
+        <a href="#howtouse" class="aboutuspagelink">#如何登入及進行購買</a>
+        <a href="#contactus" class="aboutuspagelink">#聯絡我們</a>
+        <hr class="hr-double-arrow">
+
+        <br>
+
+        <h3 id="aboutus">網站理念</h3><hr class="hr-edge-weak">
+        現今社會人們如果想享用到新鮮的蔬果，他們大多都會選擇去街市買，然而不是所有人都方便經常到訪街市，因此這個網站希望能使人們更便利地享用到新鮮的蔬果。
+        
+
+
+        <p><br><br></p>
+    
+
+        <h3 id="howtouse">如何登入及進行購買</h3><hr class="hr-edge-weak">
+        <div class="videoout">
+          <video controls width="100%" height="auto">
+            <source src="photo/howtousehevc.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <p><br><br></p>
+
+        <h3 id="contactus">聯絡我們</h3><hr class="hr-edge-weak">
+        <h6>
+          地址:	香港九龍觀塘曉明街二十六號<br>
+          電話:	2727 4311<br>
+          傳真:	2347 3916<br>
+          電郵:	<a href="mailto:contact@holmglad.edu.hk">contact@holmglad.edu.hk</a><br>
+        </h6>
+
+
+  </div>
+  
+</div>
+
+  
+  <!-- footer -->
+  <footer>
+    <a href="aboutus.html" >關於我們</a>
+    <a href="appform.html" >意見反饋</a>
+    <a href="webmap.html" >網站地圖</a>
+    <div id="last-update">最後更新日期:</div>
+  
+    <audio autoplay loop id="myAudio" src="photo/soothing-sunset-116237.mp3"></audio>
+  
+     <ion-icon name="play-circle-outline" onclick="playAudio();playbgm();" class="musicimg playbgm" id="playbgm"></ion-icon>
+     <ion-icon name="pause-circle-outline" onclick="pauseAudio();pausebgm();" class="musicimg pausebgm" id="pausebgm"></ion-icon>
+     
+   <script>
+   var x = document.getElementById("myAudio"); 
+   
+   function playAudio() { 
+     x.play(); 
+   } 
+   
+   function pauseAudio() { 
+     x.pause(); 
+   } 
+  
+   var playbgm = document.getElementById('playbgm');
+   var pausebgm = document.getElementById('pausebgm');
+  
+   function playbgm() {
+     playbgm.className = "playbgm";
+     pausebgm.className = "pausebgm";
+   }
+  
+   function pausebgm() {
+     playbgm.className = "pausebgm";
+     pausebgm.className = "playbgm";
+   }
+  
+   </script>
+  
+  </footer>
+  
+  <footer class="unfooter">
+    <a href="aboutus.html" >關於我們</a>
+    <a href="appform.html" >意見反饋</a>
+    <a href="webmap.html" >網站地圖</a>
+  </footer>
+  
+  <footer class="unfooter">
+      <div id="last-update">最後更新日期:</div>
+  
+    <audio autoplay loop id="myAudio" src="photo/soothing-sunset-116237.mp3"></audio>
+  
+     <ion-icon name="play-circle-outline" onclick="playAudio();playbgm();" class="musicimg playbgm" id="playbgm"></ion-icon>
+     <ion-icon name="pause-circle-outline" onclick="pauseAudio();pausebgm();" class="musicimg pausebgm" id="pausebgm"></ion-icon>
+     
+   <script>
+   var x = document.getElementById("myAudio"); 
+   
+   function playAudio() { 
+     x.play(); 
+   } 
+   
+   function pauseAudio() { 
+     x.pause(); 
+   } 
+  
+   var playbgm = document.getElementById('playbgm');
+   var pausebgm = document.getElementById('pausebgm');
+  
+   function playbgm() {
+     playbgm.className = "playbgm";
+     pausebgm.className = "pausebgm";
+   }
+  
+   function pausebgm() {
+     playbgm.className = "pausebgm";
+     pausebgm.className = "playbgm";
+   }
+  
+   </script>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

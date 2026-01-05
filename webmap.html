@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>網頁地圖|FRESH</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/home.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/btnleft.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/webmaprwd.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="photo\logo_icon_banner\logo1.png" />
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  
+<header>
+  <!-- header -->
+  
+  <div id="toop">
+    <div id="logo_header" >
+      <a href="index.html"><img src="photo/logo_icon_banner/logo.png" id="logo" class="img-fluid"></a>
+    </div>
+    <div id="banner">
+       <img src="photo/logo_icon_banner/banner.gif" class="img-fluid">
+    </div>
+</div>
+  
+</header>
+
+
+
+  <div class="butcom container">
+  
+  <div class="buttongp">
+  <button class="btnleft lbtn1" value="主頁" onClick="location.href='index.html'">主頁</button>
+  <div class="lbtnnone"></div>
+  <button class="btnleft lbtn2" onclick="location.href='login.html'">購物車</button>
+  <div class="lbtnnone"></div>
+  <button class="btnleft lbtn3" value="商品一覽" onClick="location.href='Commodity_all.html'">商品一覽</button>
+  </div>
+  
+  
+  <div class="com2 container webmap" style="text-align: left;padding-top: 3%;">
+    <sapn class="homepg"><h4><a href="index.html">主頁</a></h4></sapn>
+    <sapn class="cart"><h4><a href="login/loggedon.php">購物車/登入</a></h4></sapn>
+    <sapn class="regacc"><h4><a href="regacc.htm">登記帳戶</a></h4></sapn>
+    <sapn class="comlinks allpg"><h4><a href="Commodity_all.html">商品一覽</a></h4></sapn>
+    <sapn class="comlinks newpg"><h4><a href="Classification_new.html">最新上架</a></h4></sapn>
+    <sapn class="comlinks populpg"><h4><a href="Classification_popular.html">人氣商品</a></h4></sapn>
+    <sapn class="comlinks recompg"><h4><a href="Classification_recommend.html">本店推薦</a></h4></sapn>
+    <sapn class="comlinks fruitpg"><h4><a href="Classification_fruit.html">水果</a></h4></sapn>
+    <sapn class="comlinks vegpg"><h4><a href="Classification_veg.html">蔬菜</a></h4></sapn>
+    <sapn class="theaboutuspg"><h4><a href="aboutus.html">關於我們</a></h4></sapn>
+    <sapn class="feedbackpg"><h4><a href="appform.html">意見反饋</a></h4></sapn>
+    <sapn class="webmappg"><h4><a href="">網站地圖(本頁)</a></h4></sapn>
+
+  </div>
+  
+</div>
+
+
+  
+  <!-- footer -->
+  <footer>
+    <a href="aboutus.html" >關於我們</a>
+    <a href="appform.html" >意見反饋</a>
+    <a href="webmap.html" >網站地圖</a>
+    <div id="last-update">最後更新日期:</div>
+
+    <audio autoplay loop id="myAudio" src="photo/soothing-sunset-116237.mp3"></audio>
+
+     <ion-icon name="play-circle-outline" onclick="playAudio();playbgm();" class="musicimg playbgm" id="playbgm"></ion-icon>
+     <ion-icon name="pause-circle-outline" onclick="pauseAudio();pausebgm();" class="musicimg pausebgm" id="pausebgm"></ion-icon>
+     
+   <script>
+   var x = document.getElementById("myAudio"); 
+   
+   function playAudio() { 
+     x.play(); 
+   } 
+   
+   function pauseAudio() { 
+     x.pause(); 
+   } 
+
+   var playbgm = document.getElementById('playbgm');
+   var pausebgm = document.getElementById('pausebgm');
+
+   function playbgm() {
+     playbgm.className = "playbgm";
+     pausebgm.className = "pausebgm";
+   }
+
+   function pausebgm() {
+     playbgm.className = "pausebgm";
+     pausebgm.className = "playbgm";
+   }
+
+   </script>
+
+</footer>
+
+<footer class="unfooter">
+  <a href="aboutus.html" >關於我們</a>
+  <a href="appform.html" >意見反饋</a>
+  <a href="webmap.html" >網站地圖</a>
+</footer>
+
+<footer class="unfooter">
+    <div id="last-update">最後更新日期:</div>
+
+  <audio autoplay loop id="myAudio" src="photo/soothing-sunset-116237.mp3"></audio>
+
+   <ion-icon name="play-circle-outline" onclick="playAudio();playbgm();" class="musicimg playbgm" id="playbgm"></ion-icon>
+   <ion-icon name="pause-circle-outline" onclick="pauseAudio();pausebgm();" class="musicimg pausebgm" id="pausebgm"></ion-icon>
+   
+ <script>
+ var x = document.getElementById("myAudio"); 
+ 
+ function playAudio() { 
+   x.play(); 
+ } 
+ 
+ function pauseAudio() { 
+   x.pause(); 
+ } 
+
+ var playbgm = document.getElementById('playbgm');
+ var pausebgm = document.getElementById('pausebgm');
+
+ function playbgm() {
+   playbgm.className = "playbgm";
+   pausebgm.className = "pausebgm";
+ }
+
+ function pausebgm() {
+   playbgm.className = "pausebgm";
+   pausebgm.className = "playbgm";
+ }
+
+ </script>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

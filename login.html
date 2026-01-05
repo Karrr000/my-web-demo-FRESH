@@ -1,0 +1,158 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>登入|FRESH</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="photo\logo_icon_banner\logo1.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+<link href="SpryAssets/home.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/btnleft.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="photo\logo_icon_banner\logo1.png" />
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+	
+	
+	<!-- header -->
+	
+<div id="toop">
+	<div id="logo_header" >
+	  <a href="index.html"><img src="photo/logo_icon_banner/logo.png" id="logo" class="img-fluid"></a>
+	</div>
+	<div id="banner">
+		<img src="photo/logo_icon_banner/banner.gif" class="img-fluid">
+	</div>
+</div>
+	
+<div class="bucom">
+	
+	<div class="buttongpout">
+		<div class="buttongp">
+		  <button class="btnleft lbtn1" value="主頁" onClick="location.href='index.html'">主頁</button>
+		  <div class="lbtnnone"></div>
+		  <button class="btnleft lbtn2" onclick="location.href='login/loggedon.php'">購物車</button>
+		  <div class="lbtnnone"></div>
+		  <button class="btnleft lbtn3" value="商品一覽" onClick="location.href='Commodity_all.html'">商品一覽</button>
+		</div>
+	  </div>
+
+    <div class="login">
+		<form method="post" action="https://ict.holmglad.edu.hk/hgc-181414/sba/login/login.php">
+			<p></p>
+			
+			<table>
+				<tr>
+					<td>帳號名稱:</td>
+					<td><input type="text" name="username" /></td>
+				</tr>
+			
+				<tr>
+					<td>密碼:</td>
+					<td><input type="password" name="password" /></td>
+				</tr>
+			
+			
+				<tr>
+					<td spancol="2"><input type="submit" value="登入" /></td>
+				</tr>
+			</table>
+			
+			</form>
+			<br>
+			未有帳戶?  <a href="regacc.htm">登記帳戶</a>
+
+	</div>
+
+</div>
+
+	
+<footer>
+	<a href="aboutus.html" >關於我們</a>
+	<a href="appform.html" >意見反饋</a>
+	<a href="webmap.html" >網站地圖</a>
+	<div id="last-update">最後更新日期:</div>
+
+	<audio autoplay loop id="myAudio" src="photo/soothing-sunset-116237.mp3"></audio>
+
+	 <ion-icon name="play-circle-outline" onclick="playAudio();playbgm();" class="musicimg playbgm" id="playbgm"></ion-icon>
+	 <ion-icon name="pause-circle-outline" onclick="pauseAudio();pausebgm();" class="musicimg pausebgm" id="pausebgm"></ion-icon>
+	 
+   <script>
+   var x = document.getElementById("myAudio"); 
+   
+   function playAudio() { 
+	 x.play(); 
+   } 
+   
+   function pauseAudio() { 
+	 x.pause(); 
+   } 
+
+   var playbgm = document.getElementById('playbgm');
+   var pausebgm = document.getElementById('pausebgm');
+
+   function playbgm() {
+	 playbgm.className = "playbgm";
+	 pausebgm.className = "pausebgm";
+   }
+
+   function pausebgm() {
+	 playbgm.className = "pausebgm";
+	 pausebgm.className = "playbgm";
+   }
+
+   </script>
+
+</footer>
+
+<footer class="unfooter">
+	<a href="aboutus.html" >關於我們</a>
+	<a href="appform.html" >意見反饋</a>
+	<a href="webmap.html" >網站地圖</a>
+  </footer>
+  
+  <footer class="unfooter">
+	  <div id="last-update">最後更新日期:</div>
+  
+	<audio autoplay loop id="myAudio" src="photo/soothing-sunset-116237.mp3"></audio>
+  
+	 <ion-icon name="play-circle-outline" onclick="playAudio();playbgm();" class="musicimg playbgm" id="playbgm"></ion-icon>
+	 <ion-icon name="pause-circle-outline" onclick="pauseAudio();pausebgm();" class="musicimg pausebgm" id="pausebgm"></ion-icon>
+	 
+   <script>
+   var x = document.getElementById("myAudio"); 
+   
+   function playAudio() { 
+	 x.play(); 
+   } 
+   
+   function pauseAudio() { 
+	 x.pause(); 
+   } 
+  
+   var playbgm = document.getElementById('playbgm');
+   var pausebgm = document.getElementById('pausebgm');
+  
+   function playbgm() {
+	 playbgm.className = "playbgm";
+	 pausebgm.className = "pausebgm";
+   }
+  
+   function pausebgm() {
+	 playbgm.className = "pausebgm";
+	 pausebgm.className = "playbgm";
+   }
+  
+   </script>
+  </footer>
+
+</body>
+
+</html>
